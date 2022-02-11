@@ -1,7 +1,7 @@
 {
   "name": "multilanguage-handler",
   "version": "1.0.0",
-  "description": "A package to support multi-language localisation into your app.",
+  "description": "A package to support multi-language localisation into your app with ease.",
   "main": "multilang.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
