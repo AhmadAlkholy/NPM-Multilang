@@ -1,5 +1,5 @@
 # Multilangauge-Handler for javascript
-### A package to support multi-language localisation into your app with ease.
+### A multi-language handling library to support multi-languages in your app with the simplest most optimized way.
 
 ## Usage:
 This package simply uses json files to store messages. You can do that in 2 simple steps.
