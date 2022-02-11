@@ -4,7 +4,7 @@
 ## Usage:
 This package simply uses json files to store messages. You can do that in 2 simple steps.
 
-####Step1 Create a directory for each language in which you will add the json files you want. The directory structure will look something like this:
+#### Step1 Create a directory for each language in which you will add the json files you want. The directory structure will look something like this:
 
 ```bash
 ├── app
@@ -26,7 +26,7 @@ For example language/en/common.json file will contain:
 }
 ```
 
-####Step2 use the library:
+#### Step2 use the library:
 ```javascript
 const {multilang} = require("multilanguage-handler");
 

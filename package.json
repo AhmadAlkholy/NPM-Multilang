@@ -1,6 +1,6 @@
 {
   "name": "multilanguage-handler",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A package to support multi-language localisation into your app with ease.",
   "main": "multilang.js",
   "scripts": {
