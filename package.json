@@ -1,0 +1,24 @@
+{
+  "name": "multilang",
+  "version": "1.0.0",
+  "description": "A package to support multilanguage localisation into your app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadAlkholy/NPM-Multilang.git"
+  },
+  "keywords": [
+    "localisation",
+    "multilanguage",
+    "languages"
+  ],
+  "author": "Ahmed Alkholy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmadAlkholy/NPM-Multilang/issues"
+  },
+  "homepage": "https://github.com/AhmadAlkholy/NPM-Multilang#readme"
+}
