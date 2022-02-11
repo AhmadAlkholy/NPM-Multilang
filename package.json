@@ -2,7 +2,7 @@
   "name": "multilang",
   "version": "1.0.0",
   "description": "A package to support multilanguage localisation into your app.",
-  "main": "index.js",
+  "main": "multilang.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
