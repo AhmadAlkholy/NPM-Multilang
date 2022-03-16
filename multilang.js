@@ -8,13 +8,18 @@ class Multilang {
         this.data = {};
     }
 
-    setLang(lang) {
-        this.lang = lang;
+    setLang(langDir) {
+        this.langDir = langDir;
+        this.lang = langDir.split('/').pop();
         return this;
     }
 
+    getLang() {
+        return this.lang;
+    }
+
     validate() {
-        if (this.lang == '') {
+        if (this.langDir == '') {
             throw new LangNotSet("You must set language using setLang() method");
         }
     }
@@ -23,7 +28,7 @@ class Multilang {
         this.validate();
         let pathArr = keyPath.split('.');
         const key = pathArr.pop();
-        const filePath = this.lang + '/' + keyPath.replace('.' + key, '').replace('.', '/') + '.json';
+        const filePath = this.langDir + '/' + keyPath.replace('.' + key, '').replace('.', '/') + '.json';
         if ( this.files.indexOf(filePath) == -1 && fs.existsSync(filePath) ){
             const newData = JSON.parse( fs.readFileSync(filePath, 'utf8') );
             this.data = Object.assign(this.data, newData);
@@ -33,4 +38,4 @@ class Multilang {
     }
 }
 
-module.exports.multilang = new Multilang();
+module.exports = new Multilang();
