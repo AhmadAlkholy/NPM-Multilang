@@ -10,7 +10,12 @@ class Multilang {
 
     setLang(langDir) {
         this.langDir = langDir;
-        this.lang = langDir.split('/').pop();
+        const newLang = langDir.split('/').pop();
+        if (this.lang !== newLang) {
+            this.lang = newLang;
+            this.files = [];
+            this.data = {};
+        }
         return this;
     }
 

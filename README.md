@@ -1,4 +1,4 @@
-# Multilangauge-Handler for javascript
+# Multilangauge-Handler for JavaScript
 ### A multi-language handling library to support multi-languages in your app with the simplest most optimized way.
 
 ## Usage:
@@ -28,7 +28,7 @@ For example language/en/common.json file will contain:
 
 #### Step2 use the library:
 ```javascript
-const {multilang} = require("multilanguage-handler");
+const multilang = require("multilanguage-handler");
 
 multilang.setLang("language/en");
 console.log( multilang.get('common.success') );
@@ -67,7 +67,7 @@ You can also have subdirectories under each language directory if you want.
 And get your message the same way:
 
 ```javascript
-const {multilang} = require("multilanguage-handler");
+const multilang = require("multilanguage-handler");
 
 multilang.setLang("language/en");
 console.log( multilang.get('user.login.invalid_email') );
