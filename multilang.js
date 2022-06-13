@@ -3,19 +3,19 @@ const fs = require('fs'),
 
 class Multilang {
     constructor() {
+        this.reset();
+    }
+
+    reset() {
         this.lang = '';
         this.files = [];
         this.data = {};
     }
 
     setLang(langDir) {
+        this.reset();
         this.langDir = langDir;
-        const newLang = langDir.split('/').pop();
-        if (this.lang !== newLang) {
-            this.lang = newLang;
-            this.files = [];
-            this.data = {};
-        }
+        this.lang = langDir.split('/').pop();
         return this;
     }
 

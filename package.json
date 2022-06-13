@@ -1,6 +1,6 @@
 {
   "name": "multilanguage-handler",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A multi-language handling library to support multi-languages in your app with the simplest most optimized way.",
   "main": "multilang.js",
   "scripts": {
