@@ -1,7 +1,7 @@
 {
   "name": "multilanguage-handler",
-  "version": "1.1.0",
-  "description": "A multi-language handling library to support multi-languages in your app with the simplest most optimized way.",
+  "version": "1.1.1",
+  "description": "A multi-language handling library to support multi-languages and localization in your app with the simplest most optimized way.",
   "main": "multilang.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,14 @@
   },
   "keywords": [
     "localisation",
+    "localization",
     "multilanguage",
-    "languages"
+    "multi-language",
+    "languages",
+    "locales",
+    "Internationalization",
+    "Internationalisation",
+    "i18n"
   ],
   "author": "Ahmed Alkholy",
   "license": "MIT",
